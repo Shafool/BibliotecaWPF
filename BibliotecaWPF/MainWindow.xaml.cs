@@ -24,5 +24,23 @@ namespace BibliotecaWPF
         {
             InitializeComponent();
         }
+
+        private void btClientes_Click(object sender, RoutedEventArgs e)
+        {
+            Libros interfaz = new Libros();
+            interfaz.Show();
+        }
+
+        private void btVendedores_Click(object sender, RoutedEventArgs e)
+        {
+            Autores interfaz = new Autores();
+            interfaz.Show();
+        }
+
+        private void btPrestamos_Click(object sender, RoutedEventArgs e)
+        {
+            Prestamos interfaz = new Prestamos();
+            interfaz.Show();
+        }
     }
 }
